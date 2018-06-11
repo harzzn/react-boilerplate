@@ -1,7 +1,5 @@
-version: '3.3'
-services:
-  sut:
-    build:
-      context: .
-      dockerfile: ./internals/docker/Dockerfile
-    command: bash -c "npm run lint"
+sut:
+  build:
+    context: .
+    dockerfile: ./internals/docker/Dockerfile
+  command: bash -c "npm run lint"
