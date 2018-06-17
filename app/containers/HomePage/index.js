@@ -56,7 +56,7 @@ export class HomePage extends React.PureComponent { // eslint-disable-line react
         <div>
           <CenteredSection>
             <H2>
-              <FormattedMessage {...messages.startProjectHeader} />
+              Test netlify deployment with Docker integration
             </H2>
             <p>
               <FormattedMessage {...messages.startProjectMessage} />
