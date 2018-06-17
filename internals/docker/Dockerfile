@@ -1,4 +1,4 @@
-FROM node:10-slim
+FROM node:9-slim
 
 ENV KARMA_BROWSER PhantomJS
 RUN apt-get update && apt-get install libpng12-0 bzip2
